@@ -10,8 +10,6 @@
 #SBATCH --mail-type=ALL        # Type of email notification- BEGIN,END,FAIL,ALL
 #SBATCH --mail-user=ftermignoni@fas.harvard.edu # Email to which notifications will be sent
 
-cd /n/holyscratch01/edwards_lab/ftermignoni/Jclark-reseq/BWA-chr/bamOUTsex
-
 module load jdk/1.8.0_172-fasrc01
 module load GCC/7.3.0-2.30 OpenMPI/3.1.1 BCFtools/1.9
 module load jdk/1.8.0_172-fasrc01
